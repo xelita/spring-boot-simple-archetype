@@ -12,6 +12,9 @@ public class Application implements CommandLineRunner {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(Application.class);
 
+	@Value("${app.env.info}")
+	private String envInfo;
+
 	// *************************************************************************
 	//
 	// Launcher
