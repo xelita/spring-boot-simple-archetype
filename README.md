@@ -14,7 +14,7 @@ $ mvn clean install
 Then, to generate your project you need to rely to your local archetypes catalog.
 
 ``` bash
-$ mvn generate -DarchetypeCatalog=local
+$ mvn archetype:generate -DarchetypeCatalog=local
 ```
 
 At this time, you are able to parametrize your application accordingly by giving its groupId, artifactId, main package, ...
