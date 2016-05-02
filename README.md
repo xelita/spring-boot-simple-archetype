@@ -24,11 +24,11 @@ Once everything is done your application is generated in a folder with the artif
 To launch the application, go into the freshly generated folder, then type:
 
 ``` bash
-$ cd <generated_folder> && mvn mvn spring-boot:run
+$ cd <generated_folder> && mvn spring-boot:run
 ```
 
 or
 
 ``` bash
-$ cd <generated_folder> &&mvn clean package && java -jar target/<your_generated_jar>.jar
+$ cd <generated_folder> && mvn clean package && java -jar target/<your_generated_jar>.jar
 ```
